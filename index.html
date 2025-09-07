@@ -9,10 +9,18 @@
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
-  <h1>Indicador EXP</h1>
-  <h2>Grau de Exposição do Universo de Usuários</h2>
-
+<div>
   <p>
+    dashboard
+  </p>
+</div>
+
+  <h2>DEFINIÇÃO E FÓRMULAS DE CÁLCULO DOS INDICADORES</h2>
+
+  <div class="indicador">
+    <h3>EXP - Grau de Exposição do Universo de Usuários</h3>
+
+  <p class="definicao">
     Mensura a extensão da vulnerabilidade da população de cada município,
     adotando como referência as famílias que recebem até meio salário-mínimo per capita.
     O objetivo é identificar a proporção de famílias que estariam enquadradas dentro da
@@ -20,12 +28,93 @@
     por outras oscilações conjunturais econômicas.
   </p>
 
-  <h3>Fórmula de cálculo do indicador:</h3>
+  <h4>Fórmula de cálculo do EXP:</h4>
 
   <div class="formula">
     \[
     EXP = \frac{\text{nº de famílias (até 1/2 SM)}}{\text{quant. de economias residenciais ativas}}
     \]
   </div>
+  </div>
+
+  <div class="indicador">
+  <h3>EFT - Indicador de Efetividade do Acesso à Política</h3>
+
+  <p class="definicao">
+    Mensura a proporção de famílias de baixa renda que realmente se beneficiam da Tarifa
+    Social em relação ao número total de famílias elegíveis, segundo os critérios da política.
+  </p>
+
+  <h4>Fórmula de cálculo do EFT:</h4>
+
+  <div class="formula">
+    \[
+    EFT = \frac{\text{nº de unidades cadastradas na Tarifa Residencial Social}}{\text{nº de famílias potenciais beneficiárias}}
+    \]
+  </div>
+  </div>
+
+  <div class="indicador">
+  <h3>ICP-R  –  Indicador de Capacidade de Pagamento - Regular</h3>
+
+  <p class="definicao">
+    Identificar o percentual da tarifa de água e esgoto medido relativamente à renda familiar
+    da população (“Regular”) de cada município, com o objetivo de estimar a parcela do orçamento
+    familiar gasta pelas famílias de baixa renda com os serviços de saneamento.
+  </p>
+
+  <h4>Fórmula de cálculo do ICP-R:</h4>
+
+  <div class="formula">
+    \[
+    ICP-R = \frac{\text{gasto domiciliar médio com água e esgoto}}
+    {\text{mediana da renda domiciliar (até 1/2 SM)}}
+    \]
+  </div>
+
+  <div class="formula">
+    \[
+    ICP-R = \frac{\text{consumo mensal de água per capita * média habit/dom * tarifa}}
+    {\text{média habit/dom * mediana da renda domiciliar (até 1/2 SM per capita}}
+    \]
+  </div>
+  </div>
+
+  <div class="indicador">
+  <h3>ICP-S  –  Indicador de Capacidade de Pagamento Advinda da Concessão do Benefício da Tarifa Social</h3>
+
+  <p class="definicao">
+    Este indicador está associado ao resultado “melhora da capacidade de pagamento dos usuários incluídos no programa
+    da Tarifa Social” e replica a mesma fórmula utilizada para o indicador de capacidade de pagamento regular (ICP-R).
+    A diferença aqui é que o comprometimento da renda com os serviços de saneamento das famílias potenciais beneficiárias
+    é calculado levando-se em conta as novas tarifas com aplicação dos descontos.
+  </p>
+
+  <h4>Fórmula de cálculo do ICP-S:</h4>
+
+  <div class="formula">
+    \[
+    ICP-S = \frac{\text{gasto domiciliar médio com água e esgoto}}
+    {\text{mediana da renda domiciliar (até 1/2 SM)}}
+    \]
+  </div>
+
+  <div class="formula">
+    \[
+    ICP-S = \frac{\text{consumo mensal de água per capita * média habit/dom * tarifa social}}
+    {\text{média habit/dom * mediana da renda domiciliar (até 1/2 SM per capita}}
+    \]
+  </div>
+  </div>
+
+  <div class="indicador">
+  <h3>IAT - Indicador de Adesões no Tempo</h3>
+
+  <p class="definicao">
+    Permite observar a dinâmica da adesão da população de baixa-renda à política ao longo do tempo.
+  </p>
+
+  </div>
+
 </body>
 </html>
